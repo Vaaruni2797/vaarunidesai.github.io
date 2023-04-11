@@ -1,2 +1,1 @@
-# VeedFolio
 Personal portfolio
