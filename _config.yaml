@@ -1,0 +1,15 @@
+title: "Vaaruni Desai"
+description: "AI Research - Interpretability, Alignment, Training Dynamics"
+url: "https://vaarunidesai.github.io"
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+paginate: 5
+paginate_path: "/blog/page:num/"
+# Social links
+linkedin_username: https://www.linkedin.com/in/vaaruni-desai/
+github_username: https://github.com/Vaaruni2797
+email: vaaruni.desai@example.com
+medium: https://medium.com/@vaaruni.desai
