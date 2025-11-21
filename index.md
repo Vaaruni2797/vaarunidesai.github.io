@@ -7,4 +7,5 @@ layout: home
 Welcome! I am Vaaruni Desai. 
 
 I am an AI researcher obsessed with how transformers think.
+
 I specialize in building probing tools to align AI to human goals.
