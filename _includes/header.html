@@ -2,7 +2,18 @@
 
 <header class="site-header" role="banner">
   <div class="wrapper header-flex">
-    <!-- Hamburger Toggle (Mobile Only) -->
+
+    <!-- Site Title -->
+    <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title }}</a>
+
+    <!-- Desktop Navigation -->
+    <nav class="site-nav desktop-nav">
+      <a class="page-link" href="{{ "/about/" | relative_url }}">About</a>
+      <a class="page-link" href="{{ "/blog/" | relative_url }}">Blog</a>
+      <a class="page-link" href="{{ "/projects/" | relative_url }}">Projects</a>
+    </nav>
+
+    <!-- Hamburger Toggle (mobile only) -->
     <input type="checkbox" id="nav-toggle" class="nav-toggle">
     <label for="nav-toggle" class="nav-toggle-label">
       <span></span>
@@ -10,8 +21,8 @@
       <span></span>
     </label>
 
-    <!-- Mobile Menu -->
-    <nav class="mobile-nav">
+    <!-- Mobile Navigation -->
+    <nav class="site-nav mobile-nav">
       <a class="page-link" href="{{ "/about/" | relative_url }}">About</a>
       <a class="page-link" href="{{ "/blog/" | relative_url }}">Blog</a>
       <a class="page-link" href="{{ "/projects/" | relative_url }}">Projects</a>
