@@ -16,9 +16,3 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-paginate
-
-# Social links (usernames only, not full URLs)
-linkedin_username: vaaruni-desai
-github_username: Vaaruni2797
-email: vaaruni.desai@gmail.com
-medium_username: vaaruni.desai
