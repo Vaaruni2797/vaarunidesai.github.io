@@ -1,0 +1,181 @@
+---
+# This file generates /assets/main.css for the site
+---
+
+@import "minima";
+
+/* ---------------------------
+   Pastel Color Palette
+---------------------------- */
+$pastel-teal: #a8edea;
+$pastel-blue: #dcedff;
+$navy: #2c3e50;
+$soft-gray: #f7f9fc;
+$accent: #74b9ff;
+$accent-hover: #5fa8ff;
+
+/* ---------------------------
+   Global
+---------------------------- */
+body {
+  background: $soft-gray;
+  color: $navy;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.65;
+}
+
+a {
+  color: $accent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $accent-hover;
+}
+
+/* ---------------------------
+   Navbar
+---------------------------- */
+.site-header {
+  background: $pastel-teal;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.site-title {
+  color: $navy !important;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.site-nav .page-link {
+  color: $navy !important;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: 0.2s ease;
+}
+
+.site-nav .page-link:hover {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+/* ---------------------------
+   Page layout / sections
+---------------------------- */
+.page-content {
+  padding: 2rem 0;
+}
+
+.wrapper {
+  max-width: 880px;
+}
+
+/* Soft card look for main content */
+.page {
+  background: white;
+  padding: 1.75rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.05);
+}
+
+/* ---------------------------
+   Home Page Buttons
+---------------------------- */
+.btn-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 10px;
+  background: $pastel-blue;
+  padding: 8px 14px;
+  border-radius: 10px;
+  color: $navy !important;
+  font-weight: 600;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.btn-link:hover {
+  background: #e6f1ff;
+}
+
+/* ---------------------------
+   Footer
+---------------------------- */
+.site-footer {
+  margin-top: 3rem;
+  padding: 2rem 0;
+  background: $pastel-blue;
+  text-align: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+.footer-heading {
+  font-weight: 700;
+  color: $navy;
+}
+
+.footer-social {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-social a {
+  color: $navy;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  opacity: 0.9;
+}
+
+.footer-social a:hover {
+  opacity: 1;
+  color: $accent-hover;
+}
+
+/* ---------------------------
+   Blog List
+---------------------------- */
+.post-list li {
+  margin-bottom: 2rem;
+  padding: 1rem 1.25rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.04);
+}
+
+.post-list .post-link {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: $navy;
+}
+
+.post-list .post-link:hover {
+  color: $accent;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.pagination a {
+  background: $pastel-teal;
+  padding: 8px 14px;
+  border-radius: 8px;
+  color: $navy;
+  font-weight: 600;
+}
+
+/* ---------------------------
+   Blog Post Body
+---------------------------- */
+.post-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.05);
+}
