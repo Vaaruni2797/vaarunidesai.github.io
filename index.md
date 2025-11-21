@@ -61,13 +61,7 @@ footer {
   margin-top: 30px;
 ">
 
-  <!-- Card 1 -->
-  <div style="
-    flex: 1 1 280px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 16px;
-  ">
+  <div class="project-card">
     <img src="imgs/fff.png"
          alt="Finetuning for Flashcards"
          style="width: 100%; border-radius: 6px;" />
@@ -75,13 +69,7 @@ footer {
     <p>AI-powered flashcard generator using fine-tuned transformers.</p>
   </div>
 
-  <!-- Card 2 -->
-  <div style="
-    flex: 1 1 280px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 16px;
-  ">
+  <div class="project-card">
     <img src="imgs/pcot.png"
          alt="Pick-U-CoT"
          style="width: 100%; border-radius: 6px;" />
@@ -89,13 +77,7 @@ footer {
     <p>Framework for probing causal hint use and explanation faithfulness.</p>
   </div>
 
-  <!-- Card 3 -->
-  <div style="
-    flex: 1 1 280px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 16px;
-  ">
+  <div class="project-card">
     <img src="imgs/mlp.png"
          alt="Attention-MLPs-in-Transformer-XOR"
          style="width: 100%; border-radius: 6px;" />
@@ -104,3 +86,28 @@ footer {
   </div>
 
 </div>
+
+<style>
+/* Ensure project cards always align 3 per row on desktop */
+.project-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 16px;
+  box-sizing: border-box;
+  flex: 0 0 calc(33.333% - 20px);
+}
+
+/* 2 per row on medium screens */
+@media (max-width: 900px) {
+  .project-card {
+    flex: 0 0 calc(50% - 20px);
+  }
+}
+
+/* 1 per row on small/mobile */
+@media (max-width: 600px) {
+  .project-card {
+    flex: 0 0 100%;
+  }
+}
+</style>
