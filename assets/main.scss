@@ -12,13 +12,14 @@ $navy: #2c3e50;
 $soft-gray: #f7f9fc;
 $accent: #74b9ff;
 $accent-hover: #5fa8ff;
+$black: #000000
 
 /* ---------------------------
    Global
 ---------------------------- */
 body {
   background: $soft-gray;
-  color: $navy;
+  color: $black;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   line-height: 1.65;
 }
@@ -42,7 +43,7 @@ a:hover {
 
 .site-title {
   color: $navy !important;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 /* Desktop nav links */
