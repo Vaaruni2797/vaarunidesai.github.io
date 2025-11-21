@@ -1,12 +1,14 @@
+{% include head.html %}
+
 <header class="site-header" role="banner">
   <div class="wrapper">
     <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title }}</a>
 
     <nav class="site-nav">
-      <a class="page-link" href="/about/">About</a>
-      <a class="page-link" href="/blog/">Blog</a>
-      <a class="page-link" href="/">Hi, I’m Vaaruni</a>
-      <a class="page-link" href="/projects/">Projects</a>
+      <a class="page-link" href="{{ "/about/" | relative_url }}">About</a>
+      <a class="page-link" href="{{ "/blog/" | relative_url }}">Blog</a>
+      <a class="page-link" href="{{ "/" | relative_url }}">Hi, I’m Vaaruni</a>
+      <a class="page-link" href="{{ "/projects/" | relative_url }}">Projects</a>
     </nav>
   </div>
 </header>
