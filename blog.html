@@ -8,7 +8,6 @@ permalink: /blog/
   {% for post in paginator.posts %}
     <li>
       <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
       <p>{{ post.excerpt }}</p>
     </li>
   {% endfor %}
@@ -18,7 +17,6 @@ permalink: /blog/
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path }}">← Newer</a>
   {% endif %}
-
   {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path }}">Older →</a>
   {% endif %}
