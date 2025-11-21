@@ -1,6 +1,5 @@
 ---
 layout: home
-title: "Hi, I’m Vaaruni"
 ---
 
 Welcome! I work on **AI interpretability**, **alignment**, and **training dynamics**.
