@@ -1,105 +1,113 @@
 @import "minima";
 
-/* ---------------------
-   Global Styling
----------------------- */
+/* ---------------------------
+   Pastel Color Palette
+---------------------------- */
+$pastel-teal: #a8edea;
+$pastel-blue: #dcedff;
+$navy: #2c3e50;
+$soft-gray: #f7f9fc;
+$accent: #74b9ff;
 
+/* ---------------------------
+   Global
+---------------------------- */
 body {
-  background: #f6f9fc;
-  color: #2c3e50;
+  background: $soft-gray;
+  color: $navy;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.65;
 }
 
-/* Links */
 a {
-  color: #1abc9c;
+  color: $accent;
+  text-decoration: none;
 }
 
 a:hover {
-  color: darken(#1abc9c, 10%);
+  color: darken($accent, 12%);
 }
 
-/* Headings */
-h1, h2, h3, h4, h5, h6 {
-  color: #2c3e50;
-  font-weight: 700;
-}
-
-/* ---------------------
+/* ---------------------------
    Navbar
----------------------- */
-
+---------------------------- */
 .site-header {
-  background: white;
-  border-bottom: 2px solid #1abc9c33;
+  background: $pastel-teal;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
 }
 
-.site-title, .site-nav .page-link {
-  color: #2c3e50 !important;
-  font-weight: 600;
+.site-title {
+  color: $navy !important;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.site-nav .page-link {
+  color: $navy !important;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: 0.2s ease;
 }
 
 .site-nav .page-link:hover {
-  color: #1abc9c !important;
+  background: rgba(255,255,255,0.6);
 }
 
-/* ---------------------
-   Buttons
----------------------- */
-
-a.button, .btn {
-  display: inline-block;
-  background: #1abc9c;
-  padding: 8px 16px;
-  border-radius: 6px;
-  color: white !important;
-  text-decoration: none;
+/* ---------------------------
+   Page layout / sections
+---------------------------- */
+.page-content {
+  padding: 2rem 0;
 }
 
-a.button:hover, .btn:hover {
-  background: darken(#1abc9c, 8%);
+.wrapper {
+  max-width: 880px;
 }
 
-/* Icon links (GitHub, LinkedIn) */
-.footer-social {
-  display: flex;
+/* Soft card look for content */
+.page {
+  background: white;
+  padding: 1.75rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0px 4px 14px rgba(0,0,0,0.05);
+}
+
+/* ---------------------------
+   Home Page Buttons
+---------------------------- */
+.btn-link {
+  display: inline-flex;
   align-items: center;
-  gap: 16px;
-  margin-top: 15px;
-}
-
-.footer-social a {
-  display: flex;
   gap: 6px;
-  align-items: center;
-  text-decoration: none;
-  color: #2c3e50;
-}
-
-.footer-social a:hover {
-  color: #1abc9c;
-}
-
-/* ---------------------
-   Blog Styling
----------------------- */
-
-.post-list .post-link {
-  font-size: 1.4rem;
-  color: #2c3e50;
-}
-
-.post-list .post-link:hover {
-  color: #1abc9c;
-}
-
-.pagination {
-  margin-top: 20px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.pagination a {
-  color: #1abc9c;
+  margin-bottom: 10px;
+  background: $pastel-blue;
+  padding: 8px 14px;
+  border-radius: 10px;
+  color: $navy !important;
   font-weight: 600;
+  border: 1px solid rgba(0,0,0,0.05);
 }
+
+.btn-link:hover {
+  background: lighten($pastel-blue, 5%);
+}
+
+/* ---------------------------
+   Footer
+---------------------------- */
+.site-footer {
+  margin-top: 3rem;
+  padding: 2rem 0;
+  background: $pastel-blue;
+  text-align: center;
+  border-top: 1px solid rgba(0,0,0,0.07);
+}
+
+.footer-heading {
+  font-weight: 700;
+  color: $navy;
+}
+
+.footer-social {
+  margin-top: 10px;
+  display: flex;
