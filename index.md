@@ -1,8 +1,8 @@
 ---
 layout: home
 ---
-<img src="imgs/profile.png" alt="image of Vaaruni Desai" 
-     style="width: 200px; height: 200px; border-radius: 80%; align: center" />
+<img src="imgs/profile.png" alt="avatar" 
+     style="width: 200px; height: 200px; border-radius: 80%; align: center"/>
      
 Welcome! I work on **AI interpretability**, **alignment**, and **training dynamics**.
 
