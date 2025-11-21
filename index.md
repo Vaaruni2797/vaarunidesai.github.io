@@ -1,9 +1,18 @@
 ---
 layout: home
 ---
-<img src="imgs/profile.png" alt="avatar" 
-     style="width: 200px; height: 200px; border-radius: 80%; align: center"/>
-     
+<img src="imgs/profile.png"
+     alt="avatar"
+     style="
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        object-fit: cover;
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 10px;
+     " />
+
 Welcome! I am Vaaruni Desai. 
 
 I am an AI researcher obsessed with how transformers think.
