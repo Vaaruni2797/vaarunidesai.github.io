@@ -22,42 +22,30 @@ layout: home
       I am an AI researcher obsessed with how transformers think.
       I specialize in building probing tools to align AI to human goals.
     </p>
-  </div>
-</div>
 
-<h2 style="margin-top: 50px;">Contact</h2>
-
-<div style="
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  margin-top: 10px;
-  font-size: 1.1rem;
-">
-
-  <a href="https://github.com/Vaaruni2797" 
+    <a href="https://github.com/Vaaruni2797" 
      target="_blank"
      style="text-decoration: none;">
      🐈‍⬛ GitHub
-  </a>
-
-  <a href="https://www.linkedin.com/in/vaaruni-desai/" 
-     target="_blank"
-     style="text-decoration: none;">
-     🔗 LinkedIn
-  </a>
-
-  <a href="mailto:vaaruni.desai@gmail.com"
-     style="text-decoration: none;">
-     📧 Email
-  </a>
-
-  <a href="https://medium.com/@vaaruni.desai" 
-     target="_blank"
-     style="text-decoration: none;">
-     🖋️ Medium
-  </a>
-
+    </a>
+  
+    <a href="https://www.linkedin.com/in/vaaruni-desai/" 
+       target="_blank"
+       style="text-decoration: none;">
+       🔗 LinkedIn
+    </a>
+  
+    <a href="mailto:vaaruni.desai@gmail.com"
+       style="text-decoration: none;">
+       📧 Email
+    </a>
+  
+    <a href="https://medium.com/@vaaruni.desai" 
+       target="_blank"
+       style="text-decoration: none;">
+       🖋️ Medium
+    </a>
+  </div>
 </div>
 
 <!-- Project Cards Section -->
