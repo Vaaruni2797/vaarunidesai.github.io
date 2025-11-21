@@ -1,10 +1,4 @@
-title: "Vaaruni Desai"
-description: "AI Research — Interpretability, Alignment, Training Dynamics"
-
-# IMPORTANT: this is your actual GitHub Pages domain
 url: "https://vaaruni2797.github.io"
-
-# IMPORTANT: this is your repo name, with a leading slash
 baseurl: "/vaarunidesai.github.io"
 
 theme: minima
