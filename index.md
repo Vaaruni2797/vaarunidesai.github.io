@@ -6,6 +6,11 @@ layout: home
      
 Welcome! I am Vaaruni Desai. 
 
-I work on **AI interpretability**, **alignment**, and **training dynamics**.
+I’m an AI researcher specializing in interpretability, alignment and transformer training dynamics.
 
-I study how transformers learn to reason — from syntactic structure and attention circuits to causal hint use and grokking behavior.
+I build and analyze probing pipelines that quantify how syntactic structure emerges across model layers and training checkpoints. My work includes attention entropy studies, PCA-based representation dynamics, and longitudinal experiments that track how reasoning circuits evolve.
+Ask me about it!
+
+Before getting into research, I engineered secure and high‑performance REST APIs at Refinitiv (LSEG) and Thomson Reuters.
+
+I hold a Master’s in Data Science & Engineering from UC San Diego.
