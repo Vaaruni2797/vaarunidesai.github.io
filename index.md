@@ -13,14 +13,14 @@ Past work include:
 <div style="display: flex; gap: 16px;">
 
   <div style="flex: 1; border: 1px solid #ddd; border-radius: 8px; padding: 16px;">
-    <img src="imgs/fff.png" alt="FinetuningForFlashcards" style="width: 100%; border-radius: 6px;"/>
-    <h3><a href="https://github.com/Vaaruni2797/FinetuningForFlashcards">FinetuningForFlashcards</a></h3>
+    <img src="imgs/fff.png" alt="Finetuning for Flashcards" style="width: 100%; border-radius: 6px;"/>
+    <h3><a href="https://github.com/Vaaruni2797/FinetuningForFlashcards">Finetuning for Flashcards</a></h3>
     <p>AI-powered flashcard generator using fine-tuned transformers.</p>
   </div>
 
   <div style="flex: 1; border: 1px solid #ddd; border-radius: 8px; padding: 16px;">
-    <img src="imgs/pcot.png" alt="pickucot" style="width: 100%; border-radius: 6px;"/>
-    <h3><a href="https://github.com/Vaaruni2797/pickucot">pickucot</a></h3>
+    <img src="imgs/pcot.png" alt="Pick-U-CoT" style="width: 100%; border-radius: 6px;"/>
+    <h3><a href="https://github.com/Vaaruni2797/pickucot">Pick-U-CoT</a></h3>
     <p>Framework for probing causal hint use and explanation faithfulness.</p>
   </div>
 
