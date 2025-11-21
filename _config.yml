@@ -10,7 +10,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
 # Social links
-linkedin_username: https://www.linkedin.com/in/vaaruni-desai/
-github_username: https://github.com/Vaaruni2797
+linkedin_username: vaaruni-desai
+github_username: Vaaruni2797
+medium: vaaruni.desai
 email: vaaruni.desai@gmail.com
-medium: https://medium.com/@vaaruni.desai
