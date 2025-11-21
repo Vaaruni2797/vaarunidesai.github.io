@@ -10,12 +10,24 @@ I am an AI researcher obsessed with how transformers think.
 I specialize in building probing tools to align AI to human goals.
 
 Past work include: 
+<div style="display: flex; gap: 16px;">
 
-[### **FinetuningForFlashcards**](https://github.com/Vaaruni2797/FinetuningForFlashcards)
-AI-powered flashcard generator using fine‑tuned transformers.
+  <div style="flex: 1; border: 1px solid #ddd; border-radius: 8px; padding: 16px;">
+    <img src="<!-- add image link here -->" alt="FinetuningForFlashcards" style="width: 100%; border-radius: 6px;"/>
+    <h3><a href="https://github.com/Vaaruni2797/FinetuningForFlashcards">FinetuningForFlashcards</a></h3>
+    <p>AI-powered flashcard generator using fine-tuned transformers.</p>
+  </div>
 
-[### **pickucot**](https://github.com/Vaaruni2797/pickucot)
-Framework for probing causal hint use and explanation faithfulness.
+  <div style="flex: 1; border: 1px solid #ddd; border-radius: 8px; padding: 16px;">
+    <img src="<!-- add image link here -->" alt="pickucot" style="width: 100%; border-radius: 6px;"/>
+    <h3><a href="https://github.com/Vaaruni2797/pickucot">pickucot</a></h3>
+    <p>Framework for probing causal hint use and explanation faithfulness.</p>
+  </div>
 
-[### **Attention‑MLPs‑in‑Transformer‑XOR**](https://github.com/Vaaruni2797/Attention-MLPs-in-Transformer-XOR)
-Experiments analyzing grokking, attention entropy, and representation phase transitions.
+  <div style="flex: 1; border: 1px solid #ddd; border-radius: 8px; padding: 16px;">
+    <img src="<!-- add image link here -->" alt="Attention-MLPs-in-Transformer-XOR" style="width: 100%; border-radius: 6px;"/>
+    <h3><a href="https://github.com/Vaaruni2797/Attention-MLPs-in-Transformer-XOR">Attention-MLPs-in-Transformer-XOR</a></h3>
+    <p>Experiments analyzing grokking, attention entropy, and representation phase transitions.</p>
+  </div>
+
+</div>
