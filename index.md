@@ -47,6 +47,11 @@ layout: home
     </a>
   </div>
 </div>
+<style>
+footer {
+  display: none !important;
+}
+</style>
 
 <!-- Project Cards Section -->
 <div style="
