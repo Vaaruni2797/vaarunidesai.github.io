@@ -75,7 +75,7 @@ layout: home
     <img src="imgs/mlp.png"
          alt="Attention-MLPs-in-Transformer-XOR"
          style="width: 100%; border-radius: 6px;" />
-    <h3><a href="https://github.com/Vaaruni2797/Attention-MLPs-in-Transformer-XOR">Attention-MLPs-in-Transformer-XOR</a></h3>
+    <h3><a href="https://github.com/Vaaruni2797/Attention-MLPs-in-Transformer-XOR">The Role of Attention and MLPs in Transformer XOR Computation</a></h3>
     <p>Experiments analyzing grokking, attention entropy, and representation phase transitions.</p>
   </div>
 
