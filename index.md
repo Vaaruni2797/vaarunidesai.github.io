@@ -9,7 +9,7 @@ Welcome! I am Vaaruni Desai.
 I am an AI researcher obsessed with how transformers think.
 I specialize in building probing tools to align AI to human goals.
 
-Past work include: 
+Some examples include: 
 <div style="display: flex; gap: 16px;">
 
   <div style="flex: 1; border: 1px solid #ddd; border-radius: 8px; padding: 16px;">
