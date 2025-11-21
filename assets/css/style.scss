@@ -1,9 +1,105 @@
 @import "minima";
 
+/* ---------------------
+   Global Styling
+---------------------- */
+
 body {
-  background: #f7f7f7;
+  background: #f6f9fc;
+  color: #2c3e50;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
-.hero {
-  padding: 2rem 0;
+/* Links */
+a {
+  color: #1abc9c;
+}
+
+a:hover {
+  color: darken(#1abc9c, 10%);
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #2c3e50;
+  font-weight: 700;
+}
+
+/* ---------------------
+   Navbar
+---------------------- */
+
+.site-header {
+  background: white;
+  border-bottom: 2px solid #1abc9c33;
+}
+
+.site-title, .site-nav .page-link {
+  color: #2c3e50 !important;
+  font-weight: 600;
+}
+
+.site-nav .page-link:hover {
+  color: #1abc9c !important;
+}
+
+/* ---------------------
+   Buttons
+---------------------- */
+
+a.button, .btn {
+  display: inline-block;
+  background: #1abc9c;
+  padding: 8px 16px;
+  border-radius: 6px;
+  color: white !important;
+  text-decoration: none;
+}
+
+a.button:hover, .btn:hover {
+  background: darken(#1abc9c, 8%);
+}
+
+/* Icon links (GitHub, LinkedIn) */
+.footer-social {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 15px;
+}
+
+.footer-social a {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  text-decoration: none;
+  color: #2c3e50;
+}
+
+.footer-social a:hover {
+  color: #1abc9c;
+}
+
+/* ---------------------
+   Blog Styling
+---------------------- */
+
+.post-list .post-link {
+  font-size: 1.4rem;
+  color: #2c3e50;
+}
+
+.post-list .post-link:hover {
+  color: #1abc9c;
+}
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pagination a {
+  color: #1abc9c;
+  font-weight: 600;
 }
