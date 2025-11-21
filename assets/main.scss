@@ -180,12 +180,10 @@ a:hover {
   border-radius: 12px;
   box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.05);
 }
-
 /* ---------------------------
-   Hamburger Menu
+   Hamburger Menu Styles
 ---------------------------- */
 
-/* layout wrapper */
 .header-flex {
   display: flex;
   justify-content: space-between;
@@ -193,75 +191,58 @@ a:hover {
   position: relative;
 }
 
-/* hide checkbox */
+/* Hide checkbox */
 .nav-toggle {
   display: none;
 }
 
-/* hamburger icon */
+/* Hamburger bars */
 .nav-toggle-label {
   display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 26px;
+  height: 20px;
   cursor: pointer;
-  width: 30px;
-  height: 22px;
 }
 
-.nav-toggle-label span,
-.nav-toggle-label span::before,
-.nav-toggle-label span::after {
-  display: block;
-  background: $navy;
+.nav-toggle-label .bar {
   height: 3px;
   width: 100%;
-  border-radius: 3px;
-  position: absolute;
-  transition: 0.3s ease;
+  background-color: #2c3e50; /* navy from your palette */
+  border-radius: 2px;
 }
 
-.nav-toggle-label span {
-  top: 9px;
-}
-
-.nav-toggle-label span::before {
-  content: "";
-  top: -8px;
-}
-
-.nav-toggle-label span::after {
-  content: "";
-  top: 8px;
-}
-
-/* mobile nav container */
+/* Mobile Nav */
 .mobile-nav {
   display: flex;
-  gap: 15px;
+  gap: 16px;
 }
 
-/* expand when toggled */
+/* Show dropdown when checkbox checked */
 .nav-toggle:checked + .nav-toggle-label + .mobile-nav {
   display: block;
   position: absolute;
-  top: 60px;
+  top: 55px;
   right: 0;
   background: white;
   padding: 12px 18px;
   border-radius: 10px;
-  box-shadow: 0px 6px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  flex-direction: column;
 }
 
+/* On small screens */
 @media (max-width: 700px) {
-  /* hide normal nav */
+  /* Hide normal nav */
   .mobile-nav {
     display: none;
     flex-direction: column;
     align-items: flex-start;
-    width: 180px;
   }
 
-  /* show hamburger */
+  /* Show hamburger */
   .nav-toggle-label {
-    display: block;
-    position: relative;
+    display: flex;
   }
 }
