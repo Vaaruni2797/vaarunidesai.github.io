@@ -23,9 +23,6 @@ layout: home
       I specialize in building probing tools to align AI to human goals.
     </p>
   </div>
-
-</div>
-
 </div>
 
 
