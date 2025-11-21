@@ -246,3 +246,74 @@ a:hover {
     display: flex;
   }
 }
+
+/* ---------------------------
+   Responsive Hamburger Menu
+---------------------------- */
+
+/* layout container */
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+/* hide mobile nav & hamburger by default */
+.mobile-nav,
+.nav-toggle,
+.nav-toggle-label {
+  display: none;
+}
+
+/* hamburger icon */
+.nav-toggle-label {
+  cursor: pointer;
+  flex-direction: column;
+  gap: 5px;
+  width: 28px;
+}
+
+.nav-toggle-label span {
+  display: block;
+  height: 3px;
+  width: 100%;
+  background: $navy;
+  border-radius: 3px;
+}
+
+/* mobile dropdown */
+.mobile-nav {
+  position: absolute;
+  top: 60px;
+  right: 0;
+  background: white;
+  padding: 12px 18px;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.12);
+  flex-direction: column;
+}
+
+/* show mobile nav when checked */
+.nav-toggle:checked ~ .mobile-nav {
+  display: flex;
+}
+
+/* mobile-only behavior */
+@media (max-width: 700px) {
+
+  /* hide desktop nav */
+  .desktop-nav {
+    display: none;
+  }
+
+  /* show hamburger icon & hidden checkbox */
+  .nav-toggle-label {
+    display: flex;
+  }
+
+  .nav-toggle {
+    display: none;
+  }
+
+}
