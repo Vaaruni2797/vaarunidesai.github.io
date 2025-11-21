@@ -1,8 +1,11 @@
 title: "Vaaruni Desai"
 description: "AI Research — Interpretability, Alignment, Training Dynamics"
 
-url: "https://vaarunidesai.github.io"
-baseurl: ""
+# IMPORTANT: this is your actual GitHub Pages domain
+url: "https://vaaruni2797.github.io"
+
+# IMPORTANT: this is your repo name, with a leading slash
+baseurl: "/vaarunidesai.github.io"
 
 theme: minima
 
@@ -14,6 +17,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
 
+# Social links (usernames only, not full URLs)
 linkedin_username: vaaruni-desai
 github_username: Vaaruni2797
 email: vaaruni.desai@gmail.com
